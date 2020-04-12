@@ -14,10 +14,10 @@ require 'pry'
   #   }
   # }
 #my solution not using iteration
-def remove_strawberry(contacts)
-  contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
-  contacts
-end
+#def remove_strawberry(contacts)
+#  contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
+#  contacts
+#end
 
 #solution using iteration to learn how to iterate in hashes
 def remove_strawberry(contacts)
